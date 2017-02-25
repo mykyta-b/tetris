@@ -4,8 +4,9 @@ public class FigurePattern {
     private String[] rows;
     private int centerX;
     private int centerY;
+    private String present = "Present"
     private int nullzero;
-    private String[] newyearfeature;
+
 
     public FigurePattern(int centerX, int centerY, String... rows) {
         this.rows = rows;
