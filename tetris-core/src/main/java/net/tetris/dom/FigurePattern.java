@@ -5,6 +5,7 @@ public class FigurePattern {
     private int centerX;
     private int centerY;
     private int nullzero;
+    private String[] newyearfeature;
 
     public FigurePattern(int centerX, int centerY, String... rows) {
         this.rows = rows;
