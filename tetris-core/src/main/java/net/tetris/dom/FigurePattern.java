@@ -21,7 +21,9 @@ public class FigurePattern {
     }
 
     public int getCenterY() {
+             return centerY;
+         }
+    public int someChangeOnMaster() {
         return centerY;
     }
-
 }
